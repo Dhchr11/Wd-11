@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Username</label>
+            <input type="text"pattern="[A-Za-z0-9]"placeholder="enter your username">
+        </div>
+        <div>
+            <label>Username</label>
+            <input type="text"pattern="[A-Za-z0-9]{3,8}"placeholder="enter your username">
+        </div>
+        <DIV>
+            <input type="tel"pattern="[0-9]{10}">
+        </DIV>
+        <div>
+            <label>quantity</label>
+             <input type="number" min="1" max="6" >
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+        <div>
+            <label>Mobile number</label>
+            <input type="text"pattern="[0-9]{10}"maxlength="10">
+        </div>
+        <div>
+            <label>E-mail</label>
+            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        </div>
+        <div>
+            <input type="password" pattern="[a-zA-z0-9]{8,12}" placeholder="Enter your password" required>
+        </div>
+    </form>
+</body>
+</html>
